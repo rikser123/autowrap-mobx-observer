@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["esnext", "dom", "dom.iterable", "scripthost", "es2019"],
+      "jsx": "react",
+      "declaration": true,
+      "declarationMap": true,
+      "declarationDir": "./dist/types",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "useDefineForClassFields": true,
+      "downlevelIteration": true
+    },
+    "include": [
+      "src/**/*.ts",
+      "types/*.d.ts"
+, "src/tests/mockData.tsx", "src/tests/utils.test.tsx"]
+  }
